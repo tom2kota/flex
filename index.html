@@ -7,7 +7,7 @@
     <title>Flex</title>
 </head>
 <body>
-<h1>Flex Box</h1>
+<h1 style="text-align: center">Flex Box</h1>
 
 
 <div class="segment gray">
@@ -32,6 +32,7 @@
     </figure>
 </div>
 
+<hr/>
 
 <div class="segment">
     <h2>Parent View - (display: flex; align-items: stretch; flex-direction: column)</h2>
@@ -79,7 +80,6 @@
 </div>
 
 
-
 <div class="segment">
     <h2>Parent View - (display: flex; align-items: center; flex-direction: column)</h2>
     <div class="parent" style="display: flex; align-items: center; flex-direction: column;">
@@ -101,8 +101,6 @@
 </pre>
     </figure>
 </div>
-
-
 
 
 <div class="segment gray">
@@ -127,45 +125,22 @@
     </figure>
 </div>
 
+<hr/>
 
 
-
-<div class="segment gray">
-    <h2>Parent View - no flex</h2>
-    <div class="parent">
+<div class="segment">
+    <h2>Parent View - (display: flex; align-items: stretch; flex-direction: row)</h2>
+    <div class="parent" style="display: flex; align-items: stretch; flex-direction: row;">
         <div class="child1" style="">Child 1 - (div)</div>
         <p class="child2" style="">Child 2 - (p)</p>
         <span class="child3" style="">Child 3 - (span)</span>
     </div>
 
     <figure>
-        <figcaption>Parent View - no flex</figcaption>
+        <figcaption>Parent View - (display: flex; align-items: stretch; flex-direction: row)</figcaption>
         <pre>
     <code contenteditable="true" tabindex="0" spellcheck="false">
-        &lt;div&gt;
-            &lt;div&gt;  Child 1 - (div)  &lt;/div&gt;
-            &lt;p&gt;    Child 2 - (p)    &lt;/p&gt;
-            &lt;span&gt; Child 3 - (span) &lt;/span&gt;
-        &lt;/div&gt;
-    </code>
-</pre>
-    </figure>
-</div>
-
-
-<div class="segment ">
-    <h2>Parent View - no flex</h2>
-    <div class="parent">
-        <div class="child1" style="">Child 1 - (div)</div>
-        <p class="child2" style="">Child 2 - (p)</p>
-        <span class="child3" style="">Child 3 - (span)</span>
-    </div>
-
-    <figure>
-        <figcaption>Parent View - no flex</figcaption>
-        <pre>
-    <code contenteditable="true" tabindex="0" spellcheck="false">
-        &lt;div&gt;
+        &lt;div  class="parent" style="display: flex; align-items: stretch; flex-direction: row;" &gt;
             &lt;div&gt;  Child 1 - (div)  &lt;/div&gt;
             &lt;p&gt;    Child 2 - (p)    &lt;/p&gt;
             &lt;span&gt; Child 3 - (span) &lt;/span&gt;
@@ -177,18 +152,18 @@
 
 
 <div class="segment gray">
-    <h2>Parent View - no flex</h2>
-    <div class="parent">
+    <h2>Parent View - (display: flex; align-items: flex-start; flex-direction: row)</h2>
+    <div class="parent" style="display: flex; align-items: flex-start; flex-direction: row;">
         <div class="child1" style="">Child 1 - (div)</div>
         <p class="child2" style="">Child 2 - (p)</p>
         <span class="child3" style="">Child 3 - (span)</span>
     </div>
 
     <figure>
-        <figcaption>Parent View - no flex</figcaption>
+        <figcaption>Parent View - (display: flex; align-items: flex-start; flex-direction: row)</figcaption>
         <pre>
     <code contenteditable="true" tabindex="0" spellcheck="false">
-        &lt;div&gt;
+        &lt;div  class="parent" style="display: flex; align-items: flex-start; flex-direction: row;" &gt;
             &lt;div&gt;  Child 1 - (div)  &lt;/div&gt;
             &lt;p&gt;    Child 2 - (p)    &lt;/p&gt;
             &lt;span&gt; Child 3 - (span) &lt;/span&gt;
@@ -200,18 +175,18 @@
 
 
 <div class="segment">
-    <h2>Parent View - no flex</h2>
-    <div class="parent">
+    <h2>Parent View - (display: flex; align-items: center; flex-direction: row)</h2>
+    <div class="parent" style="display: flex; align-items: center; flex-direction: row;">
         <div class="child1" style="">Child 1 - (div)</div>
         <p class="child2" style="">Child 2 - (p)</p>
         <span class="child3" style="">Child 3 - (span)</span>
     </div>
 
     <figure>
-        <figcaption>Parent View - no flex</figcaption>
+        <figcaption>Parent View - (display: flex; align-items: center; flex-direction: row)</figcaption>
         <pre>
     <code contenteditable="true" tabindex="0" spellcheck="false">
-        &lt;div&gt;
+        &lt;div  class="parent" style="display: flex; align-items: center; flex-direction: row;" &gt;
             &lt;div&gt;  Child 1 - (div)  &lt;/div&gt;
             &lt;p&gt;    Child 2 - (p)    &lt;/p&gt;
             &lt;span&gt; Child 3 - (span) &lt;/span&gt;
@@ -223,18 +198,638 @@
 
 
 <div class="segment gray">
-    <h2>Parent View - no flex</h2>
-    <div class="parent">
+    <h2>Parent View - (display: flex; align-items: flex-end; flex-direction: row)</h2>
+    <div class="parent" style="display: flex; align-items: flex-end; flex-direction: row;">
         <div class="child1" style="">Child 1 - (div)</div>
         <p class="child2" style="">Child 2 - (p)</p>
         <span class="child3" style="">Child 3 - (span)</span>
     </div>
 
     <figure>
-        <figcaption>Parent View - no flex</figcaption>
+        <figcaption>Parent View - (display: flex; align-items: flex-end; flex-direction: row)</figcaption>
         <pre>
     <code contenteditable="true" tabindex="0" spellcheck="false">
-        &lt;div&gt;
+        &lt;div  class="parent" style="display: flex; align-items: flex-end; flex-direction: row;" &gt;
+            &lt;div&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+<hr/>
+
+<div class="segment">
+    <h2>Parent View - (display: flex; justify-content: flex-start)</h2>
+    <div class="parent" style="display: flex; justify-content: flex-start">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="">Child 2 - (p)</p>
+        <span class="child3" style="">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; justify-content: flex-start)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div class="parent" style="display: flex; justify-content: flex-start" &gt;
+            &lt;div&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment gray">
+    <h2>Parent View - (display: flex; justify-content: center)</h2>
+    <div class="parent" style="display: flex; justify-content: center">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="">Child 2 - (p)</p>
+        <span class="child3" style="">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; justify-content: center)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div class="parent" style="display: flex; justify-content: center" &gt;
+            &lt;div&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment">
+    <h2>Parent View - (display: flex; justify-content: flex-end)</h2>
+    <div class="parent" style="display: flex; justify-content: flex-end">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="">Child 2 - (p)</p>
+        <span class="child3" style="">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; justify-content: flex-end)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div class="parent" style="display: flex; justify-content: flex-end" &gt;
+            &lt;div&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment gray">
+    <h2>Parent View - (display: flex; justify-content: space-between)</h2>
+    <div class="parent" style="display: flex; justify-content: space-between">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="">Child 2 - (p)</p>
+        <span class="child3" style="">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; justify-content: space-between)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div class="parent" style="display: flex; justify-content: space-between" &gt;
+            &lt;div&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment">
+    <h2>Parent View - (display: flex; justify-content: space-around)</h2>
+    <div class="parent" style="display: flex; justify-content: space-around">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="">Child 2 - (p)</p>
+        <span class="child3" style="">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; justify-content: space-around)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div class="parent" style="display: flex; justify-content: space-around" &gt;
+            &lt;div&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<hr/>
+
+
+<div class="segment gray">
+    <h2>Parent View - (display: flex; justify-content: flex-start; flex-direction: column;)</h2>
+    <div class="parent" style="display: flex; justify-content: flex-start; flex-direction: column;">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="">Child 2 - (p)</p>
+        <span class="child3" style="">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; justify-content: flex-start; flex-direction: column;)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div class="parent" style="display: flex; justify-content: flex-start; flex-direction: column;" &gt;
+            &lt;div&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment">
+    <h2>Parent View - (display: flex; justify-content: center; flex-direction: column;)</h2>
+    <div class="parent" style="display: flex; justify-content: center; flex-direction: column;">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="">Child 2 - (p)</p>
+        <span class="child3" style="">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; justify-content: center; flex-direction: column;)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div class="parent" style="display: flex; justify-content: center; flex-direction: column;" &gt;
+            &lt;div&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment gray">
+    <h2>Parent View - (display: flex; justify-content: flex-end; flex-direction: column;)</h2>
+    <div class="parent" style="display: flex; justify-content: flex-end; flex-direction: column;">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="">Child 2 - (p)</p>
+        <span class="child3" style="">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; justify-content: flex-end; flex-direction: column;)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div class="parent" style="display: flex; justify-content: flex-end; flex-direction: column;" &gt;
+            &lt;div&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment">
+    <h2>Parent View - (display: flex; justify-content: space-between; flex-direction: column;)</h2>
+    <div class="parent" style="display: flex; justify-content: space-between; flex-direction: column;">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="">Child 2 - (p)</p>
+        <span class="child3" style="">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; justify-content: space-between; flex-direction: column;)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div class="parent" style="display: flex; justify-content: space-between; flex-direction: column;" &gt;
+            &lt;div&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment gray">
+    <h2>Parent View - (display: flex; justify-content: space-around; flex-direction: column;)</h2>
+    <div class="parent" style="display: flex; justify-content: space-around; flex-direction: column;">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="">Child 2 - (p)</p>
+        <span class="child3" style="">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; justify-content: space-around; flex-direction: column;)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div class="parent" style="display: flex; justify-content: space-around; flex-direction: column;" &gt;
+            &lt;div&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<hr/>
+
+
+<div class="segment">
+    <h2>Parent View - (display: flex) + Child 2 - (flex: 1)</h2>
+    <div class="parent" style="display: flex ">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="flex: 1">Child 2 - (p)</p>
+        <span class="child3" style="">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex) + Child 2 - (flex: 1)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div style="display: flex "&gt;
+            &lt;div&gt;                  Child 1 - (div)  &lt;/div&gt;
+            &lt;p style="flex: 1"&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span&gt;                 Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment gray">
+    <h2>Parent View - (display: flex; flex-direction: row) + Child 2 - (flex: 1)</h2>
+    <div class="parent" style="display: flex; flex-direction: row">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="flex: 1">Child 2 - (p)</p>
+        <span class="child3" style="">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; flex-direction: row) + Child 2 - (flex: 1)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div style="display: flex; flex-direction: row "&gt;
+            &lt;div&gt;                  Child 1 - (div)  &lt;/div&gt;
+            &lt;p style="flex: 1"&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span&gt;                 Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment">
+    <h2>Parent View - (display: flex; flex-direction: column) + Child 2 - (flex: 1)</h2>
+    <div class="parent" style="display: flex; flex-direction: column">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="flex: 1">Child 2 - (p)</p>
+        <span class="child3" style="">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; flex-direction: column) + Child 2 - (flex: 1)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div style="display: flex; flex-direction: column "&gt;
+            &lt;div&gt;                  Child 1 - (div)  &lt;/div&gt;
+            &lt;p style="flex: 1"&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span&gt;                 Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment gray">
+    <h2>Parent View - (display: flex) + Child 2,3 - (flex: 1)</h2>
+    <div class="parent" style="display: flex ">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="flex: 1">Child 2 - (p)</p>
+        <span class="child3" style="flex: 1">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex) + Child 2,3 - (flex: 1)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div style="display: flex "&gt;
+            &lt;div&gt;                  Child 1 - (div)  &lt;/div&gt;
+            &lt;p style="flex: 1"&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span style="flex: 1"&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment">
+    <h2>Parent View - (display: flex; flex-direction: row) + Child 2,3 - (flex: 1)</h2>
+    <div class="parent" style="display: flex; flex-direction: row">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="flex: 1">Child 2 - (p)</p>
+        <span class="child3" style="flex: 1">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; flex-direction: row) + Child 2,3 - (flex: 1)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div style="display: flex; flex-direction: row "&gt;
+            &lt;div&gt;                  Child 1 - (div)  &lt;/div&gt;
+            &lt;p style="flex: 1"&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span style="flex: 1"&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment gray">
+    <h2>Parent View - (display: flex; flex-direction: column) + Child 2,3 - (flex: 1)</h2>
+    <div class="parent" style="display: flex; flex-direction: column">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="flex: 1">Child 2 - (p)</p>
+        <span class="child3" style="flex: 1">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; flex-direction: column) + Child 2,3 - (flex: 1)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div style="display: flex; flex-direction: column "&gt;
+            &lt;div&gt;                  Child 1 - (div)  &lt;/div&gt;
+            &lt;p style="flex: 1"&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span style="flex: 1"&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment">
+    <h2>Parent View - (display: flex) + Child 1,2,3 - (flex: 1)</h2>
+    <div class="parent" style="display: flex ">
+        <div class="child1" style="flex: 1">Child 1 - (div)</div>
+        <p class="child2" style="flex: 1">Child 2 - (p)</p>
+        <span class="child3" style="flex: 1">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex) + Child 1,2,3 - (flex: 1)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div style="display: flex "&gt;
+            &lt;div style="flex: 1"&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p style="flex: 1"&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span style="flex: 1"&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment gray">
+    <h2>Parent View - (display: flex; flex-direction: row) + Child 1,2,3 - (flex: 1)</h2>
+    <div class="parent" style="display: flex; flex-direction: row">
+        <div class="child1" style="flex: 1">Child 1 - (div)</div>
+        <p class="child2" style="flex: 1">Child 2 - (p)</p>
+        <span class="child3" style="flex: 1">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; flex-direction: row) + Child 1,2,3 - (flex: 1)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div style="display: flex; flex-direction: row "&gt;
+            &lt;div style="flex: 1"&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p style="flex: 1"&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span style="flex: 1"&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment">
+    <h2>Parent View - (display: flex; flex-direction: column) + Child 1,2,3 - (flex: 1)</h2>
+    <div class="parent" style="display: flex; flex-direction: column">
+        <div class="child1" style="flex: 1">Child 1 - (div)</div>
+        <p class="child2" style="flex: 1">Child 2 - (p)</p>
+        <span class="child3" style="flex: 1">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; flex-direction: column) + Child 1,2,3 - (flex: 1)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div style="display: flex; flex-direction: column "&gt;
+            &lt;div style="flex: 1"&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p style="flex: 1"&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span style="flex: 1"&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment gray">
+    <h2>Parent View - (display: flex) + Child 1,2,3 - (flex: 4,4,2)</h2>
+    <div class="parent" style="display: flex ">
+        <div class="child1" style="flex: 4">Child 1 - (div)</div>
+        <p class="child2" style="flex: 4">Child 2 - (p)</p>
+        <span class="child3" style="flex: 2">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex) + Child 1,2,3 - (flex: 4,4,2)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div style="display: flex "&gt;
+            &lt;div style="flex: 4"&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p style="flex: 4"&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span style="flex: 2"&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment">
+    <h2>Parent View - (display: flex; flex-direction: row) + Child 1,2,3 - (flex: 4,4,2)</h2>
+    <div class="parent" style="display: flex; flex-direction: row">
+        <div class="child1" style="flex: 4">Child 1 - (div)</div>
+        <p class="child2" style="flex: 4">Child 2 - (p)</p>
+        <span class="child3" style="flex: 2">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; flex-direction: row) + Child 1,2,3 - (flex: 4,4,2)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div style="display: flex; flex-direction: row "&gt;
+            &lt;div style="flex: 4"&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p style="flex: 4"&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span style="flex: 2"&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment gray">
+    <h2>Parent View - (display: flex; flex-direction: column) + Child 1,2,3 - (flex: 4,4,2)</h2>
+    <div class="parent" style="display: flex; flex-direction: column">
+        <div class="child1" style="flex: 4">Child 1 - (div)</div>
+        <p class="child2" style="flex: 4">Child 2 - (p)</p>
+        <span class="child3" style="flex: 2">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; flex-direction: column) + Child 1,2,3 - (flex: 4,4,2)</figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div style="display: flex; flex-direction: column "&gt;
+            &lt;div style="flex: 4"&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p style="flex: 4"&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span style="flex: 2"&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<hr/>
+
+
+<div class="segment">
+    <h2>Parent View - (display: flex; flex-direction: column; align-items: center) + Child 2 - (align-self:
+        stretch)</h2>
+    <div class="parent" style="display: flex; flex-direction: column; align-items: center">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="align-self: stretch">Child 2 - (p)</p>
+        <span class="child3" style="">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; flex-direction: column; align-items: center) + Child 2 - (align-self:
+            stretch)
+        </figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div style="display: flex; flex-direction: column; align-items: center"&gt;
+            &lt;div&gt;                              Child 1 - (div)  &lt;/div&gt;
+            &lt;p style="align-self: stretch"&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span&gt;                             Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment gray">
+    <h2>Parent View - (display: flex; flex-direction: row; align-items: center) + Child 2 - (align-self: self-end)</h2>
+    <div class="parent" style="display: flex; flex-direction: row; align-items: center">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="align-self: self-end">Child 2 - (p)</p>
+        <span class="child3" style="">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; flex-direction: row; align-items: center) + Child 2 - (align-self:
+            self-end)
+        </figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div style="display: flex; flex-direction: row; align-items: center"&gt;
+            &lt;div&gt;                              Child 1 - (div)  &lt;/div&gt;
+            &lt;p style="align-self: self-end"&gt;   Child 2 - (p)    &lt;/p&gt;
+            &lt;span&gt;                             Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+<hr/>
+
+<div class="segment">
+    <h2>Parent View - (display: flex; flex-direction: row-reverse; align-items: center; justify-content: center)</h2>
+    <div class="parent"
+         style="display: flex; flex-direction: row-reverse; align-items: center; justify-content: center">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="">Child 2 - (p)</p>
+        <span class="child3" style="">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; flex-direction: row-reverse; align-items: center; justify-content:
+            center)
+        </figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div style="display: flex; flex-direction: row-reverse; align-items: center; justify-content: center"&gt;
+            &lt;div&gt;  Child 1 - (div)  &lt;/div&gt;
+            &lt;p&gt;    Child 2 - (p)    &lt;/p&gt;
+            &lt;span&gt; Child 3 - (span) &lt;/span&gt;
+        &lt;/div&gt;
+    </code>
+</pre>
+    </figure>
+</div>
+
+
+<div class="segment gray">
+    <h2>Parent View - (display: flex; flex-direction: column-reverse; align-items: center; justify-content: center)</h2>
+    <div class="parent"
+         style="display: flex; flex-direction: column-reverse; align-items: center; justify-content: center">
+        <div class="child1" style="">Child 1 - (div)</div>
+        <p class="child2" style="">Child 2 - (p)</p>
+        <span class="child3" style="">Child 3 - (span)</span>
+    </div>
+
+    <figure>
+        <figcaption>Parent View - (display: flex; flex-direction: column-reverse; align-items: center; justify-content:
+            center)
+        </figcaption>
+        <pre>
+    <code contenteditable="true" tabindex="0" spellcheck="false">
+        &lt;div style="display: flex; flex-direction: column-reverse; align-items: center; justify-content: center"&gt;
             &lt;div&gt;  Child 1 - (div)  &lt;/div&gt;
             &lt;p&gt;    Child 2 - (p)    &lt;/p&gt;
             &lt;span&gt; Child 3 - (span) &lt;/span&gt;
